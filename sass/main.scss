@@ -1,51 +1,6 @@
-@import "./Components/header";
 @import "./Components/shared";
+@import "./Components/header";
 @import "./Components/first_section";
 @import "./Components/collage_section";
 @import "./Components/products";
-
-.current{
-    color:#D41443;
-}
-// ---BUTTONS---
-.generic__button{
-    display: flex;
-    text-align: center;
-    align-items: center;
-
-    height: 40px;
-    padding: 20px;
-    border-radius: 20px;
-    border: none;
-
-    font-family: 'DM Sans';
-    font-style: normal;
-
-    color: #D41443;
-    background-color: #FFFFFF;
-&:hover{
-    color: #FFFFFF;
-    background-color: #D41443;
-    cursor: pointer;
-    }
-}
-.arrow__button{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    
-    border-radius: 50%;
-    border: none;
-    
-    svg{
-        color: #D41443;
-        fill: #D41443;
-    }
-&:hover{
-        background-color: #D41443;     
-    svg{
-        color: #FFFFFF;
-        fill: #FFFFFF;
-        }
-    }
-}
+@import "./Components/about";

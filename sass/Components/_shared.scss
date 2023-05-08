@@ -32,3 +32,60 @@ a{
 .section{
   margin-bottom: 120px;
 }
+
+
+.current{
+  color:#D41443;
+}
+// ---BUTTONS---
+.generic__button{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+
+  color: #D41443;
+  background-color: #FFFFFF;
+  & svg{
+      fill: #D41443;
+      color: #D41443;
+      }
+  &:hover{
+  color: #FFFFFF;
+  background-color: #D41443;
+  cursor: pointer;
+
+  & svg{
+      fill: #ffffff;
+      color: #ffffff;
+  }
+  }
+}
+.arrow__button{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  
+  border-radius: 50%;
+  border: none;
+  
+  svg{
+      color: #D41443;
+      fill: #D41443;
+  }
+&:hover{
+      background-color: #D41443;     
+  svg{
+      color: #FFFFFF;
+      fill: #FFFFFF;
+      }
+  }
+}
