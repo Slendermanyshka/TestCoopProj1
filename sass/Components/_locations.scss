@@ -1,0 +1,101 @@
+.locations{
+    background: url("../../image/sectionbg2\ 1.png"), linear-gradient(0deg, rgba(255,245,246,1) 0%, rgba(255,245,246,1) 90%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+    background-position-y: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 165px;
+}
+.location{
+    &__type{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        padding: 5px 10px;
+        border-radius: 5px;
+    &.cafe{
+            background-color: #F0D1A5;
+        }
+    &.foodtruck{
+        background-color: #C2E297;
+    }
+    }
+    &__container{
+        margin-top: 32px;
+        display: block;
+        &:not(:last-child){
+            &::after{
+                margin-top: 32px;
+                display: block;
+                content: "";
+                width: 100%;
+                border: 1px solid #E1E1E1;
+            }
+        }
+    }
+    &__schedule{
+        &__container{
+            margin-bottom: 15px;
+        }
+        &__text{
+            font-family: 'DM Sans';
+            font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 186%;
+                color: #FFA5BA;
+        }
+    }
+    &__h4{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 186%;
+        letter-spacing: 0.04em;
+        color: #000000;
+        }
+    &__text{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 183%;
+        letter-spacing: 0.04em;
+        color: #907E82;
+    }
+    &__item{
+        max-width: 330px;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding: 51px 44px;
+        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+        border-radius: 24px;
+        &:not(:last-child){
+            margin-right: 15px;
+        }
+    }
+    &__contact{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 183%;
+        color: #907E82;
+    }
+}
+.locations{
+    &__list{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 87px;
+    }    
+    &__buttons__list{
+        display: flex;
+        justify-content: center;
+    }
+}

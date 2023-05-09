@@ -1,0 +1,57 @@
+.customer__img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 85px;
+    height: 85px;
+}
+.customer__review__container{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 50px;
+    max-width: 925px;
+    background-color: #FAFAFA;
+    background-image: url("../../image/svg/apostophe.svg");
+    background-repeat: no-repeat;
+    background-position: 5% 20%;
+}
+.customer__review{
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+     width: 750px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-decoration: underline #E1E1E1;
+}
+.dots__customers{
+    display: block;
+    margin-inline: auto;
+    text-align: center;
+    color: #D41443;
+    font-size: 30px;
+    font-weight: 700;
+}
+.customer__location{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 186%;
+
+/* or 37px */
+text-align: center;
+
+color: #000000;
+}
+
+
+

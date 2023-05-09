@@ -43,17 +43,15 @@ a{
   justify-content: center;
   text-align: center;
   align-items: center;
-
-  height: 40px;
-  width: 40px;
   border-radius: 20px;
   border: none;
-
   font-family: 'DM Sans';
   font-style: normal;
 
   color: #D41443;
   background-color: #FFFFFF;
+
+  
   & svg{
       fill: #D41443;
       color: #D41443;
@@ -67,6 +65,22 @@ a{
       fill: #ffffff;
       color: #ffffff;
   }
+  }
+}
+.iconed{
+  width: 40px;
+  height: 40px;
+}
+.texted{
+  padding: 10px 30px;
+}
+
+.inverted{
+  color: #FFFFFF;
+  background-color: #D41443;
+  &:hover{
+    color: #D41443;
+    background-color: #FFFFFF;
   }
 }
 .arrow__button{
